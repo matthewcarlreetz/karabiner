@@ -16,9 +16,9 @@
         },
         "rules": [
           {
+            "description": "Command Tab",
             "manipulators": [
               {
-                "description": "Command Tab Right",
                 "from": {
                   "key_code": "right_arrow",
                   "modifiers": {
@@ -32,13 +32,8 @@
                   }
                 ],
                 "type": "basic"
-              }
-            ]
-          },
-          {
-            "manipulators": [
+              },
               {
-                "description": "Command Tab Left",
                 "from": {
                   "key_code": "left_arrow",
                   "modifiers": {
@@ -52,11 +47,7 @@
                   }
                 ],
                 "type": "basic"
-              }
-            ]
-          },
-          {
-            "manipulators": [
+              },
               {
                 "description": "Command Tab",
                 "from": {
