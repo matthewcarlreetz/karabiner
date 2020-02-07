@@ -16,6 +16,71 @@
         },
         "rules": [
           {
+            "description": "Media keys",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "left_arrow",
+                  "modifiers": {
+                    "mandatory": ["control"]
+                  }
+                },
+                "to": {
+                  "key_code": "rewind"
+                },
+                "type": "basic"
+              },
+              {
+                "from": {
+                  "key_code": "right_arrow",
+                  "modifiers": {
+                    "mandatory": ["control"]
+                  }
+                },
+                "to": {
+                  "key_code": "fastforward"
+                },
+                "type": "basic"
+              },
+              {
+                "from": {
+                  "key_code": "return_or_enter",
+                  "modifiers": {
+                    "mandatory": ["control"]
+                  }
+                },
+                "to": {
+                  "key_code": "play_or_pause"
+                },
+                "type": "basic"
+              },
+              {
+                "from": {
+                  "key_code": "up_arrow",
+                  "modifiers": {
+                    "mandatory": ["control"]
+                  }
+                },
+                "to": {
+                  "key_code": "volume_increment"
+                },
+                "type": "basic"
+              },
+              {
+                "from": {
+                  "key_code": "down_arrow",
+                  "modifiers": {
+                    "mandatory": ["control"]
+                  }
+                },
+                "to": {
+                  "key_code": "volume_decrement"
+                },
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Command Tab",
             "manipulators": [
               {
